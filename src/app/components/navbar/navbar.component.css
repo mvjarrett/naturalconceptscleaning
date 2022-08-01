@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+h2{
+ font-family: 'Send Flowers', cursive;
+ color: #76b3b8;
+ text-shadow: .5px .5px #4a4a4a;
+ justify-content: center;
+}
+.navbar-brand{
+ width: 100%;
+ justify-content: center;
+}
