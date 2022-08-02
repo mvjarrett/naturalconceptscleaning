@@ -1,4 +1,4 @@
-#container{
+/* #container{
  height: 25vw;
  width: 100%;
  overflow: hidden;
@@ -11,7 +11,7 @@
  height: 25vw;
  width: 100%;
  overflow: hidden;
- /* filter: blur(4px); */
+
  filter: brightness(60%)  blur(4px);;
  background: url("https://wallpaperaccess.com/full/1432909.jpg") no-repeat center;
  z-index: 1;
@@ -31,11 +31,39 @@
  text-align: center;
  z-index: 2;
 }
-
-.center{
- position: relative;
- z-index: 2;
- height: 25vw;
- line-height: 25vw;
+ */
+.textContainer>p{
+ font-size: 3.8vw;
  color: white;
+ text-align: center;
+ line-height: 25vw;
+ font-family: 'Tajawal', sans-serif;
+}
+.heroContainer{
+ position: relative;
+width: 100%;
+height: 25vw;
+overflow: hidden;
+z-index: -1;
+}
+
+.heroContainer>img{
+ width: 100%;
+ height: auto;
+ margin-top: -25vw;
+ filter: brightness(60%)  blur(4px);
+ z-index: -1;
+
+}
+
+.textContainer{
+ position: absolute;
+ top: 0;
+ left: 0; 
+ width: 100%;
+ height: 100%;
+ /* line-height: 25vw; */
+ /* height: auto; */
+ z-index: 3;
+ border: 4px, red, solid;
 }
