@@ -8,4 +8,5 @@ h2{
 .navbar-brand{
  width: 100%;
  justify-content: center;
+ margin-top: 40px;
 }
