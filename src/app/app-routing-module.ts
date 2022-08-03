@@ -5,7 +5,7 @@ import { HomeTabComponent } from './components/home-tab/home-tab.component';
 import { ServiceTabComponent } from './components/service-tab/service-tab.component';
 
 const routes: Routes = [
-  { path: '**', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
    { path: 'home', component: HomeTabComponent },
    { path: 'service', component: ServiceTabComponent },
    { path: 'about', component: AboutTabComponent },
