@@ -1,0 +1,10 @@
+#servicesContainer{
+ padding-left: 25vw;
+ padding-right: 25vw;
+}
+
+@media only screen and (max-width: 1080px) {
+ #servicesContainer{
+  padding: 0;
+ }
+}

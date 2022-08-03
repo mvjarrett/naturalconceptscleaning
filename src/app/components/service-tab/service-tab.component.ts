@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-service-tab',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./service-tab.component.css']
 })
 export class ServiceTabComponent implements OnInit {
-
+serviceHero = 'Service'
+serviceTitle = 'We have something for all your needs!'
   constructor() { }
-
+   tabToggle : true | undefined
   ngOnInit(): void {
+ 
   }
 
 }

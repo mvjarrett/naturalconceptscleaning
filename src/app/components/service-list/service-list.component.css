@@ -1,0 +1,24 @@
+#listContainer {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 4vw;
+}
+
+.listSection {
+  padding-top: 2vh;
+}
+
+li {
+  list-style-type: "-";
+  margin-left: 1.5vw;
+  padding-top: 0.2vw;
+}
+
+.title.is-5 {
+  padding-top: 1vw;
+  margin-bottom: 0.5vw;
+}
+.title.is-6 {
+  font-style: italic;
+  margin-bottom: 0.5vw;
+}

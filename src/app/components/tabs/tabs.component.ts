@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tabs',
@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabs.component.css']
 })
 export class TabsComponent implements OnInit {
+  @Input() homeStatus: boolean | undefined
 
   constructor() { }
 
   ngOnInit(): void {
+    this.homeStatus = this.homeStatus
   }
 
 }

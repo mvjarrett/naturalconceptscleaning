@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-subtext',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./subtext.component.css']
 })
 export class SubtextComponent implements OnInit {
-
+@Input() subtext=''
   constructor() { }
 
   ngOnInit(): void {

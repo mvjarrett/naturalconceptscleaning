@@ -1,4 +1,6 @@
-<p>service-tab works!</p>
-
-<app-image-hero></app-image-hero>
-<app-subtext></app-subtext>
+<app-image-hero [heroText]="serviceHero"></app-image-hero>
+<app-title-header [serviceTitle]="serviceTitle"></app-title-header>
+<div id="servicesContainer">
+  <app-service-options></app-service-options>
+  <app-service-list></app-service-list>
+</div>
