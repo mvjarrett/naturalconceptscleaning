@@ -13,6 +13,8 @@ import { ServiceOptionsComponent } from './components/service-options/service-op
 import { ServiceListComponent } from './components/service-list/service-list.component';
 import { TitleHeaderComponent } from './components/title-header/title-header.component';
 import { AboutTabComponent } from './components/about-tab/about-tab.component';
+import { ContactTabComponent } from './components/contact-tab/contact-tab.component';
+
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { AboutTabComponent } from './components/about-tab/about-tab.component';
     ServiceOptionsComponent,
     ServiceListComponent,
     TitleHeaderComponent,
-    AboutTabComponent
+    AboutTabComponent,
+    ContactTabComponent
   ],
   imports: [
     BrowserModule,
