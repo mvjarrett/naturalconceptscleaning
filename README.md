@@ -1,7 +1,7 @@
 # Naturalconceptscleaning
 
 This project is a SPA Angular app designed as a webpage for a local business to use for advertising and business booking purposes.
-
+It is currently hosted via firebase.
 
 #Live Example
 
